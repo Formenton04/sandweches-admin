@@ -180,3 +180,320 @@ th {
     transform: rotate(360deg);
   }
 }
+.add-product{
+  border: 0;
+  height: 100px;
+  width: 300px;
+      line-height: 2.5;
+      padding: 0 20px;
+      font-size: 1rem;
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+      border-radius: 10px;
+      background-color: rgba(220, 0, 0, 1);
+      background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+      box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      margin-right: auto;
+      align-items: right;
+  /*allineo la scritta */padding-top: 10px;
+  }
+
+      .label:first-child {
+        position: fixed;
+        top: 30%;
+        left: 20%;
+      }
+      .label:nth-child(2) {
+        position: fixed;
+        top: 30%;
+        left:30%;
+      }
+      .label:nth-child(3) {
+        position: fixed;
+        top: 30%;
+        right: 30%;
+      }
+      .add_Product_Label{
+        position: fixed;
+      }
+
+      .label_informazione_prodotto{
+        position: fixed;
+        top:10%;
+        left : 50% ;
+      }
+      .input_Product_Name{
+        position: fixed;
+        top: 13%;
+        left:43%;
+      }
+      .label_product_description{
+        position: fixed;
+        left: 20%;
+        top: 23%;
+      }
+      .input_Product_Description{
+        position: fixed;
+        top: 23%;
+        left: 26%;
+      }
+      .label_product_price{
+        position: fixed;
+        top: 23%;
+        right: 34%;
+      }
+      .input_Product_Price{
+        position: fixed;
+        top: 23%;
+        right:23%
+      }
+      .label_product_category{
+        position: fixed;
+        top: 30%;
+        left: 20%;
+      }
+      .input_product_category{
+        position: fixed;
+        top: 30%;
+        left: 25%;
+      }
+      .label_product_quantity{
+        position: fixed;
+        top: 30%;
+        right: 34%;
+      }
+      .input_Product_Quantity{
+        position: fixed;
+        top: 30%;
+        right: 20%;
+      }
+      .bottom_Add{
+        position: fixed;
+        top: 30%;
+        right: 18%;
+        border-radius: 25px 25px;
+      }
+      .botoom_Minus
+      {
+          position: fixed;
+          top: 30%;
+          right: 17%;
+          border-radius: 25px 25px;
+      }
+      .nutritional_values_label{
+        position: fixed;
+        top: 50%;
+        right: 50%;
+        left: 50%;
+      }
+      .label_product_Kcal{
+        position: fixed;
+        bottom: 35%;
+        left: 35%;
+      }
+      .input_Product_KCAL{
+        position: fixed;
+        width: 40px;
+        bottom: 33%;
+        left: 35%;
+      }
+      .label_product_fat{
+        position: fixed;
+        bottom: 35%;
+        left: 45%;
+      }
+      .input_Product_Fat{
+        position: fixed;
+        width: 40px;
+        bottom: 33%;
+        left: 44.7%;
+      }
+      .label_product_satured_fat{
+        position: fixed;
+        bottom: 35%;
+        left: 54%;
+      }
+      .input_Product_Satured_Fat{
+        position: fixed;
+        width: 40px;
+        bottom: 33%;
+        left: 55.3%;
+      }
+      .label_product_carbohydrate{
+        position: fixed;
+        bottom: 35%;
+        left: 64%;
+      }
+      .input_Product_Carbohydrate{
+        position: fixed;
+        width: 40px;
+        bottom: 33%;
+        right: 32%;
+      }
+      .label_product_sugar{
+        position: fixed;
+        bottom: 25%;
+        left: 34.7%;
+      }
+      .input_Product_Sugar{
+        position: fixed;
+        width: 40px;
+        bottom: 23%;
+        left: 35%;
+      }
+      .label_product_protein{
+        position: fixed;
+        bottom: 25%;
+        left: 44%;
+      }
+      .input_Product_Protein{
+        position: fixed;
+        width: 40px;
+        bottom: 23%;
+        left: 44.7%;
+      }
+      .label_product_Fiber{
+        position: fixed;
+        bottom: 25%;
+        left: 55.2%;
+
+      }
+      .input_Product_Fiber{
+        position: fixed;
+        width: 40px;
+        bottom: 23%;
+        left: 55.3%;
+      }
+      .label_product_Salt{
+        position: fixed;
+        bottom: 25%;
+        right: 32%;
+      }
+      .input_Product_salt{
+        position: fixed;
+        width: 40px;
+        bottom: 23%;
+        right: 32%;
+      }
+      .username_label{
+        position: fixed;
+        top: 35%;
+        left: 21%;
+      }
+      .username_info_label{
+        position: fixed;
+        top: 35%;
+        left: 32%;
+        
+      }
+
+      .email_label{
+        position: fixed;
+        top: 40%;
+        left: 21%;
+      }
+      .email_info_label{
+        position: fixed;
+        top: 40%;
+        left: 32%;
+      }
+      .password_label{
+        position: fixed;
+        top: 45%;
+        left: 21%;
+      }
+      .inpput_password_user{
+        position: fixed;
+        top: 45%;
+        left: 32%;
+      }
+      .termini_condizione_button{
+        border: 0;
+        height: 100px;
+        width: 300px;
+            line-height: 2.5;
+            padding: 0 20px;
+            font-size: 1rem;
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 10px;
+            background-color: rgba(220, 0, 0, 1);
+            background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+            box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+            position: fixed;
+            bottom: 20%;
+            left: 20%;
+            margin-right: auto;
+            align-items: right;
+            padding-top: 25px;
+      }
+      .modifica_password_button{
+        border: 0;
+        height: 100px;
+        width: 300px;
+            line-height: 2.5;
+            padding: 0 20px;
+            font-size: 1rem;
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 10px;
+            background-color: rgba(220, 0, 0, 1);
+            background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+            box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+            position: fixed;
+            bottom: 10%;
+            left: 20%;
+            margin-right: auto;
+            align-items: right;
+            padding-top: 30px;
+      }
+      .label_login_in_your_account{
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        right: 40%;
+      }
+      .input_user_email{
+        position: fixed;
+        width: 300px;
+        top: 25%;
+        left: 47%;
+      }
+      .input_user_password{
+        position: fixed;
+        width: 300px;
+        top: 30%;
+        left: 47%;
+      }
+      .button_login{
+        border: 0;
+        height: 100px;
+        width: 300px;
+            line-height: 2.5;
+            padding: 0 20px;
+            font-size: 1rem;
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 10px;
+            background-color: rgba(220, 0, 0, 1);
+            background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+            box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+            position: fixed;
+            bottom: 10%;
+            left: 47%;
+            margin-right: auto;
+            align-items: right;
+            padding-top: 30px;
+      }
+      label_forget_password{
+        position: fixed;
+        top: 40%;
+        left: 47%;
+      }
